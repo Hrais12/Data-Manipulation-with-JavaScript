@@ -73,7 +73,7 @@ console.log (`n1 is larger than n4: ${isn1Largern4}.`)
 //check 3
 // 
 
-let Substn1 = n1-n2 ;
+let Substn1 = n2-n1 ;
 
 console.log (`Subtract the first number from the second number: ${Substn1}.`) 
 
@@ -128,6 +128,14 @@ let Average = (55 + 60 + 75) / 3;
 let TripHours = 1500 / Average ;
 
 console.log(`total hours  the trip will take ${TripHours}`);
+
+
+
+///////////////////////////
+//  Part 3:  Future Exploration //
+//////////////////////////
+
+
 
 
 
