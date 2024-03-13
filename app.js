@@ -108,26 +108,54 @@ console.log (`the result is  ${isTrue}.`)
 /// question 1
 
 
-let GalAverage = (30 + 28 + 23) / 3;
 
-let GalTrip = 1500 / GalAverage  ;
- console.log(`gallons of fuel needed for the entire trip ${GalTrip}`);
+
+let GalTrip1 = 1500 / 30 ;
+ console.log(`gallons of fuel needed when the speed is 55 miles/h ${GalTrip}`);
+
+ let GalTrip2 = 1500 / 28 ;
+ console.log(`gallons of fuel needed when the speed is 60 miles/h ${GalTrip}`);
+ 
+ let GalTrip3 = 1500 / 23 ;
+ console.log(`gallons of fuel needed when the speed is 75 miles/h ${GalTrip}`);
 
 // question 2 
 
-let tripBudget = GalTrip * 3 ;
+let tripBudget1 = GalTrip1 * 3 ;
 
-let isEnough = tripBudget < 175;
+let isEnough1 = tripBudget1 < 175;
 
-console.log(`Will the budget be enough to cover the fuel expense ${isEnough}`);
+console.log(`Will the budget be enough to cover the fuel expense if the speed is 55 miles/h ${isEnough1}`);
+
+let tripBudget2 = GalTrip2 * 3 ;
+
+let isEnough2 = tripBudget2 < 175;
+
+console.log(`Will the budget be enough to cover the fuel expense if the speed is 60 miles/h ${isEnough2}`);
+
+let tripBudget3 = GalTrip3 * 3 ;
+
+let isEnough3 = tripBudget3 < 175;
+
+console.log(`Will the budget be enough to cover the fuel expense if the speed is 75 miles/h ${isEnough3}`);
 
 // quesion 3
 
-let Average = (55 + 60 + 75) / 3;
 
-let TripHours = 1500 / Average ;
 
-console.log(`total hours  the trip will take ${TripHours}`);
+let TripHours1 = 1500 / 55 ;
+
+console.log(`total hours  the trip will take if the speed is 55miles/h ${TripHours1}`);
+
+let TripHours2 = 1500 / 60 ;
+
+console.log(`total hours  the trip will take if the speed is 60miles/h ${TripHours2}`);
+
+let TripHours3 = 1500 / 75 ;
+
+console.log(`total hours  the trip will take if the speed is 75miles/h ${TripHours3}`);
+
+
 
 
 
