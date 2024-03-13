@@ -111,13 +111,13 @@ console.log (`the result is  ${isTrue}.`)
 
 
 let GalTrip1 = 1500 / 30 ;
- console.log(`gallons of fuel needed when the speed is 55 miles/h ${GalTrip}`);
+ console.log(`gallons of fuel needed when the speed is 55 miles/h ${GalTrip1}`);
 
  let GalTrip2 = 1500 / 28 ;
- console.log(`gallons of fuel needed when the speed is 60 miles/h ${GalTrip}`);
+ console.log(`gallons of fuel needed when the speed is 60 miles/h ${GalTrip2}`);
  
  let GalTrip3 = 1500 / 23 ;
- console.log(`gallons of fuel needed when the speed is 75 miles/h ${GalTrip}`);
+ console.log(`gallons of fuel needed when the speed is 75 miles/h ${GalTrip3}`);
 
 // question 2 
 
